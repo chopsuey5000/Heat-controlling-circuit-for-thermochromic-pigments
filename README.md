@@ -28,7 +28,7 @@ For 1000mA:
 
 V = 1 * 32 => V = 32V
 
-## Testing circuit
+## One conductive thread test circuit
 
 ##### Materials
 - Arduino UNO board
