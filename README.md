@@ -43,7 +43,7 @@ V = 1 * 32 => V = 32V
 
 ##### Code - [view](code/_1_thread_test/)
 
-```
+```c++
 int btnPin = 7;
 int mosfetPin = 9;
 
@@ -86,7 +86,7 @@ void loop() {
 
 ##### Code - [view](code/_8_threads_test/)
 
-```
+```c++
 #define numStrings 8
 
 int actualString = 0;
