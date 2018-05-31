@@ -9,23 +9,25 @@ When large current goes through low resistance conductive material, it emits hea
 
 ## Calculations
 All conductive threads have different properties, the resistance per meter is different in all of them.
-The ideal conductive threads to build a heating source are made of steel or copper like Bekinox stainless steel thread from Bekaert or Copper thread from KarlGrimm.
+The ideal conductive threads to build a heating source are made of steel or copper.
 
-The best scenario would be to have a 6-50 Ohm conductive thread with a current of 300-1000 mA flowing through it. The time the thermochromic ink takes to change its color is directly proportional to the amount of current. For 300mA it will need more time than for 1000mA.
+Some __recommended conductive threads__ like Bekinox stainless steel thread from Bekaert or Copper thread from KarlGrimm.
 
-To calculate the voltage we just need to use ohm's law formula:
+The __best scenario would be to have a 6-50 Ohm conductive thread with a current of 300-1000 mA__ flowing through it. The time the thermochromic ink takes to change its color is directly proportional to the amount of current. For 300mA it will need more time than for 1000mA.
+
+To __calculate the voltage__ we just need to use ohm's law formula:
 
 Voltage equals Current times Resistance or V = I x R
 
 We know our conductive thread resistance(measured with the multimeter), for example 32 ohm, the current has to be a value from 300mA to 1000mA.
 
-For 300mA:
+__For 300mA:__
 
-V = 0,3 * 32 => V = 9,6V
+__V = 0,3 * 32 => V = 9,6V__
 
-For 1000mA:
+__For 1000mA:__
 
-V = 1 * 32 => V = 32V
+__V = 1 * 32 => V = 32V__
 
 ## One conductive thread test circuit
 
