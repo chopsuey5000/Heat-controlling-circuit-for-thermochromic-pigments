@@ -1,5 +1,6 @@
 # Heat-controlling-circuit-for-thermochromic-pigments
 
+
 ## Overview
 Thermochromic inks are pigments that change color to colorless at certain temperature. There are many different types of thermochromic pigments including textile inks for textile screen printing.
 
@@ -29,9 +30,12 @@ __For 1000mA:__
 
 __V = 1 * 32 => V = 32V__
 
+
+
 ## One conductive thread test circuit
 
-##### Materials
+
+### Materials
 - Arduino UNO board
 - Transistor, TIP122 or IRLZ24N or IRLB8743
 - Conductive thread
@@ -39,11 +43,13 @@ __V = 1 * 32 => V = 32V__
 - Protoboard
 - Variable DC power supply
 
-##### Wiring
+
+### Wiring
 
 ![wiring](images/wiring_1_thread_test.png)
 
-##### Code - [view](code/_1_thread_test/)
+
+### Code - [view](code/_1_thread_test/)
 
 ```c++
 int btnPin = 7;
@@ -75,18 +81,19 @@ void loop() {
 
 ![wiring](images/pcb_1.jpg)
 
-##### Materials
+
+### Materials
 - Arduino MKR1000
 - 8x Transistor BC817
 - 8x Conductive thread
 
-##### PCB
+
+### PCB
+
+[schematic & board design files](pcb/)
 
 
-[schematic & pcb files](pcb/)
-
-
-##### Code - [view](code/_8_threads_test/)
+### Code - [view](code/_8_threads_test/)
 
 ```c++
 #define numStrings 8
